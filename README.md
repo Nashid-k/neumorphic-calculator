@@ -10,6 +10,8 @@
 
 <p align="center">
   <strong>A fully responsive calculator built with HTML, CSS, and JavaScript. Features a modern neumorphic design with smooth animations, grid-based layout, and optimized user experience across all devices. Includes basic arithmetic operations (+, -, *, /) with error handling. Clean, minimal interface with teal accent colors and professional styling.</strong>
+
+🟢 **Live Demo**: [https://Nashid-k.github.io/neumorphic-calculator/](https://Nashid-k.github.io/neumorphic-calculator/)
 </p>
 
 ---
