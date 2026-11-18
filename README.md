@@ -1,54 +1,32 @@
-<!-- ══════════════════════════════════════════════════════════════════ -->
-<!--                     NASHID K  —  PROJECT METRICS                   -->
-<!-- ══════════════════════════════════════════════════════════════════ -->
+# Neumorphic Calculator
 
-# 🚀 Calculator
+A small responsive calculator built with HTML, CSS and vanilla JavaScript. The interface uses a neumorphic card and button grid with a teal accent color.
 
-<p align="center">
-  
-</p>
+## Features
 
-<p align="center">
-  <strong>A fully responsive calculator built with HTML, CSS, and JavaScript. Features a modern neumorphic design with smooth animations, grid-based layout, and optimized user experience across all devices. Includes basic arithmetic operations (+, -, *, /) with error handling. Clean, minimal interface with teal accent colors and professional styling.</strong>
+- Addition, subtraction, multiplication and division
+- Clear and evaluate controls
+- Basic invalid-expression feedback
+- Responsive layout
 
-🟢 **Live Demo**: [https://Nashid-k.github.io/neumorphic-calculator/](https://Nashid-k.github.io/neumorphic-calculator/)
-</p>
+## Files
 
----
+- `index.html` — calculator markup
+- `style.css` — neumorphic styling and responsive layout
+- `app.js` — button interactions and expression evaluation
 
-## 📌 Project Overview
-This repository contains **Calculator**, engineered with modern design standards, modular structures, and clean coding architectures.
+## Run locally
 
-### ✨ Core Features
-*   **Responsive Design:** Optimized layout for mobile, tablet, and desktop views.
-*   **Clean Codebase:** Highly organized module structures for easy navigation.
+Open `index.html` directly in a browser, or serve the directory:
 
----
-
-## 📂 Project Architecture
-
-```text
-├── index.html    # Home entry point
-├── style.css     # Modular styling
-└── script.js     # Interaction logic
+```bash
+python3 -m http.server 8000
 ```
 
----
+Then visit [http://localhost:8000](http://localhost:8000).
 
-## ⚙️ Local Development Setup
+## Live demo
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Nashid-k/Calculator.git
-   cd Calculator
-   ```
+[Open the GitHub Pages demo](https://nashid-k.github.io/neumorphic-calculator/).
 
-2. **Run the Project:**
-   Simply open `index.html` in a web browser, or host it locally using a server extension (e.g. Live Server).
-
----
-
-## 🛡️ Security & Best Practices Implemented
-*   **Strict Separations:** Modular separation between config, logic, and view components.
-*   **Environment Configuration:** Secure variables kept out of repository scopes via dotenv.
-*   **Git Standards:** Maintained clean histories and semantic commit protocols.
+> Learning project. The calculator is intentionally limited to button-entered arithmetic expressions and is not a general-purpose expression evaluator.
